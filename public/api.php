@@ -2,7 +2,7 @@
 
 require_once '../lib/papi.php';
 
-$figlet_font_path = '/usr/local/Cellar/figlet/2.2.4/share/figlet/fonts/*.flf';
+$figlet_font_path = '/usr/local/Cellar/figlet/*/share/figlet/fonts/*.flf';
 
 $params = array('font', 'text', 'width', 'fonts');
 $req = new Request($params);
