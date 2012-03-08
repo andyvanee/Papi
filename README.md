@@ -8,10 +8,8 @@ and a frontend for it in /public/index.html and /public/js/figlet.js.
 Requires figlet `brew install figlet` and probably tweaks to the figlet font path
 in /public/api.php
 
-                     _
-                    | |
-     _____ ____   __| |_   _    _   _ _____ ____  _____ _____
-    (____ |  _ \ / _  | | | |  | | | (____ |  _ \| ___ | ___ |
-    / ___ | | | ( (_| | |_| |   \ V // ___ | | | | ____| ____|
-    \_____|_| |_|\____|\__  |    \_/ \_____|_| |_|_____)_____)
-                      (____/
+                      ,
+        __   _  __
+        /_)_(_(_/_)__(_
+     .-/     .-/
+    (_/     (_/
