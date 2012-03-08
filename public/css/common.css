@@ -1,0 +1,4 @@
+body {font-family: Helvetica, sans-serif; background-color: #222; }
+.container { width: 90%; margin: 0 auto; background-color: #EEE; padding: 3%;}
+
+#output { font-family: Menlo; padding: 2%; background-color: #FFF; min-height: 400px;}
