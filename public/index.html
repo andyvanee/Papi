@@ -10,17 +10,33 @@
     <div class="container">
       <h2>Figlet Generator</h2>
       <form id="figlet_form" action="/api.php" method="get">
-        <input type="text" name="text">
+        <label>Figlet Font:</label>
         <select id='font' name="font"></select>
+        
+        <label>Width:</label>
         <select name='width'>
           <option value='60'>60</option>
           <option value='80'>80</option>
-          <option value='100'>100</option>
+          <option value='100' selected="selected">100</option>
           <option value='140'>140</option>
           <option value='200'>200</option>
         </select>
-        <input type="submit" value="Go!">
+        <label>Text: </label>
+        <textarea id='text_input' name="text">Testing</textarea>
+        
       </form>
+        <select id='browser_font'>
+          <option value="Andale Mono">Andale Mono</option>
+          <option value="Menlo Bold">Menlo Bold</option>
+          <option value="Courier New">Courier New</option>
+        </select>
+        <select id='browser_font_size'>
+          <option value="8px">8 px</option>
+          <option value="10px">10 px</option>
+          <option value="12p" selected="selected">12 px</option>
+          <option value="14px">14 px</option>
+          <option value="16px">16 px</option>
+        </select>
       <pre id="output"></pre>
     </div>
   </body>
